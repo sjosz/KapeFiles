@@ -1,0 +1,12 @@
+Description: McAfee Quarantaine files which contain encrypted files that are quarantained
+Author: Jos Clephas
+Version: 1.0
+Id: a5d878fb-882a-42d0-95a3-d8e398b33387
+RecreateDirectories: True
+Targets:
+    -
+        Name: McAfee Malware Samples
+        Category: AntiVirus
+        Path: C:\quarantine
+        IsDirectory: true
+        Recursive: true
